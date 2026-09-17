@@ -7,6 +7,7 @@ import {
   StyleSheet,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { colors } from "./colors";
 
 // -----------------------------------------------------------------------
 // Check It! — homepage + todo app screen
@@ -128,24 +129,6 @@ export default function App() {
     </SafeAreaView>
   );
 }
-
-// Catppuccin Mocha palette
-const colors = {
-  base: "#1e1e2e",
-  mantle: "#181825",
-  surface0: "#313244",
-  surface1: "#45475a",
-  text: "#cdd6f4",
-  subtext: "#a6adc8",
-  overlay: "#6c7086",
-  lavender: "#b4befe",
-  blue: "#89b4fa",
-  mauve: "#cba6f7",
-  green: "#a6e3a1",
-  red: "#f38ba8",
-  peach: "#fab387",
-  yellow: "#f9e2af",
-};
 
 const styles = StyleSheet.create({
   safeArea: {
